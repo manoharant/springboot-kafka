@@ -1,0 +1,8 @@
+jsa:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: jsa-group
+    topic: jsa-kafka-topic
+    cronexpression: 0 0/1 * * * *
+    filepath: C:\Users\U595908\Downloads
